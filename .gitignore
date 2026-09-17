@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.tox/
+
+# --- Secrets (NEVER commit tokens/passwords/keys) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Test / report / coverage output ---
+reports/allure-results/
+reports/allure-report/
+reports/html/
+.pytest_cache/
+.coverage
+htmlcov/
+assets/
+*.log
+
+# --- Build output ---
+build/
+dist/
+
+# --- JS (in case any tooling is added) ---
+node_modules/
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

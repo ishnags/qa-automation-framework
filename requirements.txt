@@ -1,0 +1,23 @@
+# --- Core test framework ---
+pytest==8.3.3
+selenium==4.25.0
+webdriver-manager==4.0.2          # auto-downloads the right chromedriver locally
+
+# --- API testing ---
+requests==2.32.3
+
+# --- BDD (Gherkin) ---
+pytest-bdd==7.3.0
+
+# --- Parallel execution ---
+pytest-xdist==3.6.1
+
+# --- Reporting ---
+allure-pytest==2.13.5             # rich Allure reports
+pytest-html==4.1.1                # lightweight fallback HTML report
+
+# --- Retry / flaky-test handling (ties into Project 2) ---
+pytest-rerunfailures==14.0
+
+# --- Utilities ---
+python-dotenv==1.0.1              # load secrets from a .env file, keep them out of git
